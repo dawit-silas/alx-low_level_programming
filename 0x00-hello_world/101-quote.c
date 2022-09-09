@@ -1,13 +1,5 @@
 #include<stdio.h>
 
-/*
- * main - Entry point
- *
- * Return: Always 0 (Success)
- *
- * Return: Other than 0 (Fail)
- */
-
 int main(void)
 {
 	char g[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
