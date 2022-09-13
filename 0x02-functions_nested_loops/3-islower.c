@@ -3,7 +3,7 @@
  *
  * Return: 1 for lower 0 for other
  *
- * parameter: c type of int
+ * parameter: int c
  */
 
 int _islower(int c)
