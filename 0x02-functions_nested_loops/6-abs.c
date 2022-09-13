@@ -1,5 +1,5 @@
 /**
- * int _abs - return abs of a number
+ * _abs - return abs of a number
  *
  * Return: return positive nums
  *
