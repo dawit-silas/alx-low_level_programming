@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * this is a c file to display to...
- * the stdout from a to z
+ * print_alphabet - prints all alpahabet 1 to z
+ *
+ * Return: void
  */
 
 void print_alphabet(void)
