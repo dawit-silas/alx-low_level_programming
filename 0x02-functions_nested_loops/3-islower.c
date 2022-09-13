@@ -2,9 +2,11 @@
  * _islower -checks if lower or not
  *
  * Return: 1 for lower 0 for other
+ *
+ * Parameter: int c
  */
 
-int _islower(int c) /*c is param*/
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
