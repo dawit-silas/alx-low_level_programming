@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * printItems - function to print
  * print_times_table - time-table for param
+ *
+ * printItems - function to print
  *
  * Return: void
  *
