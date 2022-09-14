@@ -1,10 +1,14 @@
 #include "main.h"
 
 /**
+ * printItems - function to print
  * print_times_table - time-table for param
  *
  * Return: void
  *
+ * @i: param
+ * @j: param
+ * @n: param
  * @n: param
  */
 
