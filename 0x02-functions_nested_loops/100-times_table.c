@@ -2,13 +2,12 @@
 
 /**
  * print_items - function to print items
- * print_times_table - fun
  *
  * Return: void
  *
- * @i: arg 1
+ * @i: arg1
  * @j: arg2
- * @n: arg
+ * @n:arg3
  */
 
 void print_items(int i, int j, int n)
@@ -42,6 +41,14 @@ void print_items(int i, int j, int n)
 	if (j != n)
 		_putchar(',');
 }
+
+/**
+ * print_times_table - fun
+ *
+ * Return: void
+ *
+ * @n: arg
+ */
 
 void print_times_table(int n)
 {
