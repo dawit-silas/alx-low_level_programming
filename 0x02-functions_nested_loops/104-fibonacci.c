@@ -9,7 +9,9 @@
 int main(void)
 {
 	unsigned long int i, a, b, a1, a2, b1, b2;
-	a = 1;	b = 2;
+
+	a = 1;
+	b = 2;
 
 	printf("%lu", a);
 
