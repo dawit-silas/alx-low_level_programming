@@ -9,18 +9,18 @@
 int main(void)
 {
 	int a = 1, b = 2, c;
-	
-	printf("%d, ", b);
+
+	int sum = b;
 
 	while (c <= 4000000)
 	{
 		c = a + b;
 
 		if(c % 2 == 0)
-			printf("%d, ", c);
+			sum += c;
 		a = b;
 		b = c;
 	}
-	printf("\n");
+	printf("%d\n", sum);
 	return (0);
 }
