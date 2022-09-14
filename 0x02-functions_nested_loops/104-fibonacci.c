@@ -8,21 +8,33 @@
 
 int main(void)
 {
-	double a = 1, b = 2, c;
-	int i;
+	unsigned long int i, a, b, a1, a2, b1, b2;
+	a = 1;	b = 2;
 
-	printf("%.0f, %.0f, ", a, b);
+	printf("%lu", a);
 
-	for (i = 3; i <= 98; i++)
+	for (i = 1; i < 91; i++)
 	{
-		c = a + b;
-		if (i == 98)
-			printf("%.0f\n", c);
-		else
-			printf("%.0f, ", c);
-
-		a = b;
-		b = c;
+		printf(", %lu", b);
+		b = b + a;
+		a = b - a;
 	}
+
+	a1 = a / 1000000000;
+	a2 = a % 1000000000;
+	b1 = b / 1000000000;
+	b2 = b % 1000000000;
+
+	for (i = 92; i < 99; ++i)
+	{
+		printf(", %lu", b1 + (b2 / 1000000000));
+		printf("%lu", b2 % 1000000000);
+
+		b1 = b1 + a1;
+		a1 = b1 - a1;
+		b2 = b2 + a2;
+		a2 = b2 - a2;
+	}
+	printf("\n");
 	return (0);
 }
