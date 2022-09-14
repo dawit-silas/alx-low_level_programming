@@ -1,18 +1,13 @@
 #include "main.h"
 
 /**
- * print-items - function to print items
+ * print_items - function to print items
+ * print_times_table - fun
  *
  * Return: void
  *
  * @i: arg 1
  * @j: arg2
- * @n: arg3
- *
- * print_times_table - fun to print time-tables
- *
- * Return: void
- *
  * @n: arg
  */
 
