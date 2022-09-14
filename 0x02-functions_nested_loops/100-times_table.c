@@ -3,13 +3,18 @@
 /**
  * print_times_table - time-table for param
  *
+ * Return: void
+ *
+ * @n: param
+ */
+
+/**
  * printItems - function to print
  *
  * Return: void
  *
- * @i: param
+ * @i: param 
  * @j: param
- * @n: param
  * @n: param
  */
 
