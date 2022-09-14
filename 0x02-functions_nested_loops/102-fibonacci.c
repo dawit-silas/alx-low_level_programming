@@ -1,23 +1,29 @@
 #include <stdio.h>
 
 /**
- * main - fibonaci
+ * main - function fibonacci
  *
  * Return: Always 0
  */
 
 int main(void)
 {
-	int i1 = 1, i2 = 2, i3, i, n = 50;
+	unsigned long long int a = 1, b = 2, c;
+	int i;
 
-	printf("%d, %d, ", i1, i2);
+	printf("%lld, %lld, ", a, b);
 
-	for (i = 3; i < n; i++)
+	for (i = 3; i <= 50; i++)
 	{
-		i3 = i1 + i2;
-		printf("%d, ", i3);
-		i1 = i2;
-		i2 = i3;
+		c = a + b;
+
+		if (i == 50)
+			printf("%lld\n", c);
+		else
+			printf("%lld, ", c);
+
+		a = b;
+		b = c;
 	}
 	return (0);
 }
