@@ -1,24 +1,22 @@
 #include "main.h"
 
 /**
- * print_times_table - time-table for param
+ * print-items - function to print items
  *
  * Return: void
  *
- * @n: param
- */
-
-/**
- * printItems - function to print
+ * @i: arg 1
+ * @j: arg2
+ * @n: arg3
+ *
+ * print_times_table - fun to print time-tables
  *
  * Return: void
  *
- * @i: param 
- * @j: param
- * @n: param
+ * @n: arg
  */
 
-void printItems(int i, int j, int n)
+void print_items(int i, int j, int n)
 {
 	int m = i * j;
 
@@ -62,7 +60,7 @@ void print_times_table(int n)
 	{
 		for (j = 0; j <= n; j++)
 		{
-			printItems(i, j, n);
+			print_items(i, j, n);
 		}
 		_putchar('\n');
 	}
