@@ -13,7 +13,7 @@ int main(void)
 
 	printf("%.0f, %.0f, ", a, b);
 
-	for (i = 0; i <= 98; i++)
+	for (i = 3; i <= 98; i++)
 	{
 		c = a + b;
 		if (i == 98)
