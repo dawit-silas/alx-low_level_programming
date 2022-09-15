@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print from 1 to 100 and fizz if 
+ * main - print from 1 to 100 and fizz if
  * multiple of 3 buzz mult. of 5 and if both
  * fizzbuzz
  * Return: Always 0
