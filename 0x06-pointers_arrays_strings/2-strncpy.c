@@ -2,7 +2,7 @@
  * _strncpy - copy a string to nth index
  * @dest: param1
  * @src: param2
- * @src: param3
+ * @n: param3
  * Return: char*
  */
 
@@ -29,7 +29,7 @@ char *_strncpy(char *dest, char *src, int n)
 		i++;
 	}
 
-	for (i = n; dest[i] != '\0'; i++)
+	for (i = n - 1; dest[i] != '\0'; i++)
 	{
 		dest[i] = '*';
 	}
