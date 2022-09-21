@@ -28,6 +28,8 @@ char *cap_string(char *s)
 				{
 					if (s[i - 1] == separators[j])
 					{
+						if(s[i - 1] == '\t')
+							s[i - 1] = ' ';
 						s[i] -= 32;
 						break;
 					}
