@@ -4,7 +4,7 @@
  * Return: char*
  */
 
-char *leet(char *str)
+char *leet(char *s)
 {
 	int i = 0, j;
 	char leet[] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
