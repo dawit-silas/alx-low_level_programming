@@ -19,6 +19,24 @@ int check_pal(char *s, int i, int len)
 }
 
 /**
+ * get_len - fun to find length
+ * @s: param
+ * Return: int
+ */
+
+int get_len(char *s)
+{
+	if (*s == '\0')
+	{
+		return (0);
+	}
+	else
+	{
+		return 1 + get_len(s + 1);
+	}
+}
+
+/**
  * is_palindrome - func
  * @s: param
  * Return: int
@@ -26,11 +44,7 @@ int check_pal(char *s, int i, int len)
 
 int is_palindrome(char *s)
 {
-	int len = 0;
-	while (s[len] != '\0')
-	{
-		len++;
-	}
+	int len = get_len(s);
 	if (len == 0)
 		return (1);
 	return (check_pal(s, 0, len - 1));
