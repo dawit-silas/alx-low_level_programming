@@ -26,7 +26,7 @@ int match(char *s1, char *s2, int i, int j)
 		{
 			if (match(s1, s2, i + 1, j))
 			{
-				return 1;
+				return (1);
 			}
 		}
 		return (match(s1, s2, i + 1, j));
