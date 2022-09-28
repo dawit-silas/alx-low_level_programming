@@ -10,11 +10,11 @@ int check_pal(char *s, int i, int len)
 {
 	if (i == len)
 		return (1);
-	if(s[i] != s[len])
+	if (s[i] != s[len])
 		return (0);
 
 	if (i < len + 1)
-		return (check_pal(s, i + 1, len -1));
+		return (check_pal(s, i + 1, len - 1));
 	return (1);
 }
 
@@ -32,7 +32,7 @@ int get_len(char *s)
 	}
 	else
 	{
-		return 1 + get_len(s + 1);
+		return (1 + get_len(s + 1));
 	}
 }
 
@@ -45,6 +45,7 @@ int get_len(char *s)
 int is_palindrome(char *s)
 {
 	int len = get_len(s);
+
 	if (len == 0)
 		return (1);
 	return (check_pal(s, 0, len - 1));
