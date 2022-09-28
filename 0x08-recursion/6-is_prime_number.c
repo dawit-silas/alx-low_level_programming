@@ -2,12 +2,12 @@
  * check_prime - fun check
  * @n: target num
  * @i: iterator
- * Return: int
+ * Return: int returm
  */
 
 int check_prime(int n, int i)
 {
-	if(i <= 1)
+	if (i <= 1)
 	{
 		return (0);
 	}
@@ -32,5 +32,5 @@ int check_prime(int n, int i)
 
 int is_prime_number(int n)
 {
-	return (check_prime(n, n / 2));
+	return (check_prime(n, n - 1));
 }
